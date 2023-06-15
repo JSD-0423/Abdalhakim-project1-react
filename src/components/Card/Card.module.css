@@ -1,0 +1,58 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  background-color: var(--bg-default);
+  color: var(--body-text);
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cardImg {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+
+.cardInfo {
+  padding: 0.9rem;
+}
+
+.preTitle {
+  font-size: 0.79rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title {
+  font-size: 0.9rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  height: 2.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.rate {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.rateIcon {
+  color: rgb(239, 157, 6);
+}
+
+main .topics .cards .card .card-info p.author {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}

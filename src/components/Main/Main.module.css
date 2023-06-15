@@ -1,0 +1,18 @@
+.main {
+  margin: 1.5rem 0 1rem;
+}
+
+.search {
+  background-color: var(--bg-default);
+  color: var(--body-text);
+  display: flex;
+  overflow: hidden;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.searchFilters {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
